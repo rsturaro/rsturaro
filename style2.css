@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0;
+    background-color:rgb(45, 131, 243)
+}
+
+.container-img {
+    position: fixed;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    background: url("marioback.jpg");
+    background-size: cover;
+    filter: blur(4px);
+    z-index: -2;
+}
+
+.logo-playstation {
+    position: absolute;
+    left: 80rem;
+    width: 2rem;
+    bottom: 37rem;
+    z-index: 1;
+}
+
+.logo-nintendo {
+    position: absolute;
+    left: 70rem;
+    width: 90px;
+    bottom: 35rem;
+    z-index: 1;
+}
+
+.logo-xbox {
+    position: absolute;
+    left: 77rem;
+    width: 30px;
+    bottom: 37rem;
+    z-index: 1;
+}
+
+.mario-png {
+    position: relative;
+    height: 400px;
+    left: 800px;
+}
+
+.titulo-principal {
+    position: relative;
+    left: 10px;
+    color: rgb(221, 13, 13);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.subtitulo {
+    position: relative;
+    left: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(0, 0, 0);
+    bottom: 300px;
+    left: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    color: #000000fb;
+    left: 11rem;
+    bottom: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tooltip3 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    color: #000000fb;
+    left: 21rem;
+    bottom: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tooltip .tooltiptext, .tooltip2 .tooltiptext2, .tooltip3 .tooltiptext3 {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 1, 1);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext, .tooltip2:hover .tooltiptext2, .tooltip3:hover .tooltiptext3 {
+    visibility: visible;
+    position: fixed;
+    top: 208px;
+}
+
+.imagem-tlou1, .imagem-tlou2, .imagem-codbo2, .imagem-re2, .imagem-re7, .imagem-unc, .imagem-mario, .imagem-zelda {
+    height: 7rem;
+    width: 7rem;
+}
